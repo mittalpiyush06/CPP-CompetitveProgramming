@@ -1,7 +1,4 @@
-class segtree{
-
-public: 
-
+struct segtree{
     vector < int > v;
     int size;
 

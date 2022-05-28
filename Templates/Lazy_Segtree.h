@@ -1,5 +1,4 @@
-
-struct lzy_segtree{
+struct lzy_tree{
 
     vector < int > v, lzy;
     int size;

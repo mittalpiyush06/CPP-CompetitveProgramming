@@ -1,15 +1,14 @@
 
-// DSU with path compression
 struct dsu{
     vector < int > parent;
-    
+
     dsu(int _n){
         parent.resize(_n+1);
         iota(parent.begin(), parent.end(), 0);
     }
-    
+
     int find_set(int v){
-        
+
         if(v == parent[v]){
             return v;
         }else{

@@ -1,4 +1,3 @@
-
 struct HLD{
     int cnt;
     vector < int > depth, sz, parent, tp, idx;  
@@ -59,5 +58,3 @@ struct HLD{
         return ans;
     }
 };
-
-

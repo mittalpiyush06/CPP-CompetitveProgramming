@@ -1,6 +1,4 @@
 
-// compile with PC flag
-
 string to_string(char s)
 {   string res="'''";res[1]=s;return res; }
  
@@ -35,8 +33,8 @@ void debug() { cout<<"\n"; }
 template<typename Head, typename... Tail>
 void debug(Head H, Tail... T)
 {
-        cout<<" "<<to_string(H);
-        debug(T...);
+    cout<<" "<<to_string(H);
+    debug(T...);
 }
 #ifdef PC 
 #define db(...) cout << "[" << #__VA_ARGS__ << "]:", debug(__VA_ARGS__)
